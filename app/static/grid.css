@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 6px 2% 20px;
+}
+
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.col-1 {
+  width: 29.50%;
+}
+
+.col-2 {
+  width: 62.50%;
+}

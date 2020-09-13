@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <div class="form__item">
+            {{ form.content(class="form__input", placeholder="minimalism-oriented, secure pastebin replica.") }}
+        </div>
+        <div class="form__item">
+            {{ form.submit(class="form__btn") }}
+        </div>
+    </form>
+{% endblock content %}
